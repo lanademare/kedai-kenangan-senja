@@ -50,11 +50,11 @@ body {
   color: var(--primary);
 }
 .navbar .navbar-nav a {
-  /* a itu display nya inline jadi gak bisa kita kasih margin */
-  /* tugas kita adalah mengubah displaynya jadi inline-block */
+  /* a itu display nya inline jadi gak bisa kita kasih margin vertical */
+  /* kalau yang di ubah hanya margin horizontal itu bisa tapi kalau vertical off */
   color: #fff;
   display: inline-block;
-  font-size: 1.3srem;
+  font-size: 1.3rem;
   margin: 0 1rem;
 }
 .navbar .navbar-nav a:hover {
@@ -113,7 +113,7 @@ body {
   max-width: 60rem;
 }
 .hero .content h1 {
-  font-size: 5em;
+  font-size: 5rem;
   color: #fff;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.2;
@@ -233,7 +233,7 @@ body {
   padding: 5rem 2rem;
   text-align: center;
 }
-/* mengatur taip-taip input groupnya */
+/* mengatur tiap-tiap input groupnya */
 .contact .row form .input-group {
   display: flex;
   align-items: center;
@@ -310,7 +310,7 @@ footer .credit a {
   .navbar .navbar-nav {
     /* kita mau buat si link nya saat di posisi tablet
     dia hilang tapi dia kita ilangin dan masuk ke 
-     hamburger-menu jadi keluat aja dari navnya 
+     hamburger-menu jadi keluar aja dari navnya 
      jadi bukan pakek Display none */
     position: absolute;
     top: 100%; /* ini biar dia nempel ke atas */
